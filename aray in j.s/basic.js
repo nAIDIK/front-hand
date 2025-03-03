@@ -24,10 +24,52 @@
 
 // 03-03-2025
 
+
+
 // for eachfunction
 
-let prouductdetails = ["watch","tv","mobile","laptop"];
-prouductdetails.forEach(function(prouduct) {
-    console.log(prouduct);
-})
+
+
+// let prouductdetails = ["watch","tv","mobile","laptop"];
+// prouductdetails.forEach(function(prouduct) {
+//     console.log(prouduct);
+// })
+
+
+
+// map function
+
+
+
+// let marks = [0,90,23,54,45]
+// let newmarks = marks.map(function(item) {
+//     return item + 80;
+// })
+// console.log(marks);
+// console.log(newmarks);
+
+
+
+// filter () method
+
+
+
+// let number = [1,2,3,4,5,6,7,8,9,10]
+// let evennumber = number.filter(number => number%2===0);
+// console.log(evennumber);
+
+
+
+// hosting function in javascript
+
+
+
+// hello()
+// function hello(){
+//     console.log("hello world");
+// }
+
+// console.log(a);
+// let a = 10
+
 
