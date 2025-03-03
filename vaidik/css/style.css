@@ -1,0 +1,158 @@
+    #test {  
+  width: 600px;
+  height: 200px;
+  color: rgb(161, 189, 4);
+  text-align: end;
+  background-color: crimson;
+  text-transform: uppercase;
+  font-weight: 800;
+  text-shadow: 5px black;
+}
+
+p {
+  font: size 32px;
+  line-height: 1.6;
+  text-shadow: 5px green;
+}
+
+botton {
+  background-color: blue;
+  color: black;
+  border-radius: 50px;
+}
+
+button:hover {
+  background-color: white;
+  color: rgb(0, 0, 0);
+}
+
+#orange {
+  width: 366px;
+  height: 56px;
+  background-color: aqua;
+  border: 4px solid orchid;
+  border-radius: 100px;
+}
+ 
+#box {
+  width: 366px;
+  height: 366px;
+  background-color: red;
+  border: 1px dotted black;
+  border-radius: 100px;
+}
+.box1 {
+  height: 100px;
+  width: 100px;
+  background-color: red;
+  
+}
+.box2 {
+  height: 100px;
+  width: 100px;
+  background-color: antiquewhite;
+}
+.box3 {
+  height: 100px;
+  width: 100px;
+  background-color: gold;
+}
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  width: 500px;
+  height: 500px;
+  background-color: pink;
+  border: 2px solid skyblue;
+  border: radius 10px;
+  align-items: center;
+}
+#boxB {
+  width: 366px;
+  height: 366px;
+  background-color: aquamarine;
+  border: radius 200px;
+  border: 2px dotted pink;
+}
+.box4 {
+  height: 100px;
+  width: 100px;
+  background-color: lightgrey;
+}
+.box5 {
+  width: 100px;
+  height: 100px;
+  background-color: brown;
+}
+.box6 {
+  width: 100px;
+  height: 100px;
+  background-color: purple;
+}
+.container2 {
+  display: flex;
+  justify-content: space-evenly;
+  width: 500px;
+  height: 500px;
+  background-color: chocolate;
+  align-items: center;
+}
+
+body {
+   display: flex; 
+   gap: 20px; 
+}
+
+.profil {
+  width: 500px;
+  height: 500px;
+  background-color: red;
+  background: url(https://images.freeimages.com/image/previews/15c/futuristic-blue-circles-backdrop-5695997.jpg?fmt=webp&h=350);
+  background-size: cover;
+  background-position: center;
+} 
+.card {
+  width: 500px;
+  height: 500px;
+  margin: 500px;
+  border: 1px solid black;
+  background-color:rgb(46, 41, 42);
+  box-shadow:black;
+}
+#image {
+  width: 300px;
+  height: 300px;
+  margin: 65px;
+  border: 1px solid black;
+  background: url(https://cdn.pixabay.com/photo/2019/05/25/12/30/iron-man-4228269_1280.jpg);
+  background-size: cover;
+  border: radius 50px;
+  align-items:center;
+  margin-top:30px;
+  box-shadow: rgb(0, 0, 0);
+}
+#text {
+  text-align: center;
+}
+#about {
+  text-align: center;
+  margin-top: 10px;
+  font: size 20px;
+}
+.icon{
+  font-size: 2px;
+  text-align: center;
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  background-color: brown;
+}
+a{
+text-decoration: none;
+}
+
+
+.icons {
+  font-size: 50px;
+  color: brown;
+}

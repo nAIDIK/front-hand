@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 250px);
+    gap: 10px;
+    height: 1000px;
+    padding: 10px;
+}
+
+.box1 {
+    border-radius: 20px;
+    background-color: aqua;
+}
+
+.box2 {
+    background-color: blueviolet;
+    border-radius: 20px;
+}
+
+.box3 {
+    background-color: pink;
+    border-radius: 20px;
+}
+
+.box4 {
+    background-color: goldenrod;
+    border-radius: 20px;
+}

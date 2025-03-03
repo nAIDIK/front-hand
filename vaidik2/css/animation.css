@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+.box1 {
+  width: 100px;
+  height: 100px;
+  background-color: aqua;
+  position: relative;
+  animation-name: move;
+  animation-duration: 3s;
+  animation-delay: 1s;
+  animation-direction: normal;
+  animation-timing-function: ease-in;
+  border-radius: 60%;
+  animation-iteration-count: infinite;
+}
+
+/* for anima @keyframes moves */
+
+@keyframes move {
+  from {
+    left: 0;
+  }
+  to {
+    left: 80%;
+  }
+}
+
+@keyframes second{
+ from{
+    top: 0;
+    left: 0;
+ }
+  to{
+    left: 90%;
+    top: 90%;
+  }
+}
+@keyframes rotate{
+
+  from {
+    right: 0;
+    left: 0;
+    rotate:0;
+    transform: rotatex(0deg);
+  }
+  to{
+    left: 90%;
+    right: 90%;
+   rotate :-180deg;
+   transform: rotatex(360deg);
+  }
+}
+
+.box2 { 
+  width: 100px;
+  height: 100px;
+  background-color: rgb(145, 18, 77);
+  position: relative;
+  animation-name: second;
+  animation-duration: 3s;
+  animation-delay: 1s;
+  animation-direction: normal;
+  animation-timing-function: ease-out;
+  border-radius: 60%;
+  animation-iteration-count: infinite;
+}
+
+.box3 {
+  width: 100px;
+  height: 100px;
+  background-color: none;
+  position: relative;
+  animation-name: rotate;
+  animation-duration: 8s;
+  animation-direction: normal;
+  animation-timing-function: ease-in;
+  border-radius: 60%;
+  animation-iteration-count: infinite;
+}
+
+.box4 {
+  width: 100px;
+  height: 100px;
+  background-color: chartreuse;
+  position: relative;
+  animation-name: move;
+  animation-duration: 3s;
+  animation-delay: 1s;
+  animation-direction: normal;
+  animation-timing-function: ease-out;
+  border-radius: 60%;
+  animation-iteration-count: infinite;
+}
+
+.box5 {
+  width: 100px;
+  height: 100px;
+  background-color: pink;
+  position: relative;
+  animation-name: move;
+  animation-duration: 3s;
+  animation-delay: 1s;
+  animation-direction: normal;
+  animation-timing-function: ease-in;
+  border-radius: 60%;
+  animation-iteration-count: infinite;
+}
+.box6 {
+  width: 100px;
+  height: 100px;
+  background-color: purple;
+  position: relative;
+  animation-name: move;
+  animation-duration: 3s;
+  animation-delay: 1s;
+  animation-direction: normal;
+  animation-timing-function: ease-out;
+  border-radius: 60%;
+  animation-iteration-count: infinite;
+}
+.box7 {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: relative;
+  animation-name: move;
+  animation-duration: 3s;
+  animation-delay: 1s;
+  animation-direction: normal;
+  animation-timing-function: ease-in-out;
+  border-radius: 60%;
+  animation-iteration-count: infinite;
+}
+img{
+  width: 200px;
+  height: 200px;
+  border-radius: 60%;
+}

@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  background-color: bisque;
+  display: flex;
+}
+.left {
+  width: 40%;
+  height: 100%;
+  background-color: blueviolet;
+}
+.right {
+  width: 60%;
+  height: 100%;
+  background-color: rgb(25, 46, 46);
+}
+.right-top {
+  height: 50%;
+  width: 100%;
+  background-color: chartreuse;
+  display: flex;
+}
+.right-bottom {
+  width: 100%;
+  height: 50%;
+  background-color: darkred;
+  background-image: url(https://images.unsplash.com/photo-1737071371043-761e02b1ef95?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwzfHx8ZW58MHx8fHx8);
+  background-position: center;
+  background-size: cover;
+}
+.right-top-left {
+  width: 60%;
+  height: 100%;
+  background-color: black;
+  background-size: cover;
+  background-position: center;
+  background-image: url(https://cdn.pixabay.com/photo/2024/08/15/19/19/highland-cow-8972000_1280.jpg);
+}
+.right-top-right {
+  width: 40%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-image: url(https://images.pexels.com/photos/30004713/pexels-photo-30004713/free-photo-of-elegant-portrait-of-woman-in-white-lace-dress.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load);
+}
+.nav {
+  width: 100%;
+  height: 80px;
+  background-color: dodgerblue;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font: size 40px;
+}
+a {
+  text-decoration: none;
+  padding: 20px;
+  color: black;
+}
+
+i {
+  padding: 20px;
+}
