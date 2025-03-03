@@ -22,4 +22,12 @@
 // console.log(arr);
 
 
-// 28-02-2025
+// 03-03-2025
+
+// for eachfunction
+
+let prouductdetails = ["watch","tv","mobile","laptop"];
+prouductdetails.forEach(function(prouduct) {
+    console.log(prouduct);
+})
+
