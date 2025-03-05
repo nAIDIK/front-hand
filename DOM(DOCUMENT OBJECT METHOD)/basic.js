@@ -22,6 +22,25 @@
 // let head = document.querySelector("#model")
 // console.log(head.innerText);
 
-// access by query select all
-let paragraphs = document.querySelectorAll(".paragraph")
-console.log(paragraphs.innerInnerText);
+
+// 05-03-2025
+
+
+// // access by query select all
+// let ok= document.querySelectorAll(".ok")
+// console.dir(ok);
+
+// // changeing content
+// document.getElementById("element").innerText = "hii developers";
+
+// // changeing html
+// document.getElementById("para").innerHTML="<h1>vaidik</h1>";
+
+// // changeing attributes
+// document.getElementById("my img").src = "https://static.freeimages.com/images/home/blurbs/free.webp";
+// document.getElementbyId("link").href="https://www.instagram.com";
+
+// // changeing css style 
+// document.getElementById("p").style.color="red"
+// document.getElementById("p").style.fontSize="100px"
+// document.getElementById("p").style.backgroundColor="pink"

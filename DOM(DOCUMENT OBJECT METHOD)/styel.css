@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 
+
 h1{
     background-color: aqua;
+    font-size: 50px;
 }
