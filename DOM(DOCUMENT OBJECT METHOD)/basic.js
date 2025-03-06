@@ -38,9 +38,33 @@
 
 // // changeing attributes
 // document.getElementById("my img").src = "https://static.freeimages.com/images/home/blurbs/free.webp";
-// document.getElementbyId("link").href="https://www.instagram.com";
+// document.getElementById("link").href = "https://www.instagram.com"
 
 // // changeing css style 
 // document.getElementById("p").style.color="red"
 // document.getElementById("p").style.fontSize="100px"
 // document.getElementById("p").style.backgroundColor="pink"
+
+
+// 06-03-2025
+
+
+// let elements = document.querySelectorAll(".heading")
+// elements.forEach(elements =>{
+//  console.log(elements.innerText);
+// })
+
+// ENENT handling
+
+// add event handling
+// document.getElementById("btn").addEventListener("click",function(){
+//     console.log("butten Clicked");
+//     alert("button clicked")
+// })
+
+// // remove event handling
+// document.getElementById("btn").removeEventListener("click",function(){
+//     console.log("butten Clicked");
+//     alert("button clicked")
+// })
+
