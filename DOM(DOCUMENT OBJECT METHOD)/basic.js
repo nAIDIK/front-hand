@@ -68,3 +68,43 @@
 //     alert("button clicked")
 // })
 
+// 07-03-2025
+
+
+// let element=document.querySelectorAll(".para")
+// element.forEach(element=>{
+// console.log(element.innerText);
+// })
+
+
+// create a new element 
+
+
+// let paragraph = document.createElement("p")
+// paragraph.innerText="thisis a new paragraph!"
+// document.body.appendChild(paragraph)
+
+
+// let button=document.createElement("button")
+// button.innerText="click me!"
+// document.body.appendChild(button)
+
+
+// Remove any element
+
+// document.getElementById("head").remove()
+
+// Traversing on dom
+
+
+// let parent=document.getElementById("child").parentNode
+// console.log(parent);
+
+// let children=document.getElementById("parent").children
+// console.log(children);
+
+// let prev = document.getElementById("sibling").previousElementSibling
+// console.log(prev);
+
+// let next = document.getElementById("sibling").nextElementSibling
+// console.log(next);
